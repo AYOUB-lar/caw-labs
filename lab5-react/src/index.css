@@ -1,0 +1,48 @@
+/* exo2.css ou ajouté à index.css */
+
+/* Liste non ordonnée */
+ul {
+  list-style-type: none; /* supprime les puces */
+  padding-left: 0;
+  margin: 20px 0;
+}
+
+/* Chaque élément de la liste */
+li {
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  background-color: #333; /* pour dark mode */
+  border: 1px solid #555;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+/* Hover effect pour indiquer que c'est cliquable */
+li:hover {
+  background-color: #444;
+  transform: translateX(3px);
+}
+
+/* Texte des titres */
+h1, h2 {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  margin: 10px 0;
+}
+
+/* Adaptation en light mode */
+@media (prefers-color-scheme: light) {
+  li {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    color: #213547;
+  }
+  li:hover {
+    background-color: #e0e0e0;
+  }
+  h1, h2 {
+    color: #213547;
+  }
+}
