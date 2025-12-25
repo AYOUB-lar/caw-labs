@@ -1,0 +1,64 @@
+/* ------- cars table----------- */
+
+.cars-t{
+    width: 100%;
+    display: flex;
+    background-color: #2e323f;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 40px 0px;
+    padding: 16px 0px 15px 0px;
+
+
+}
+.cars-t a {
+    width: 20%;
+    height: 20%;
+    height: auto;
+}
+.cars-t a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow:  3px 3px 5px 0px rgba(0, 0, 0, 0.205);
+
+}
+h2{ 
+    color: #fff;
+    text-decoration: underline ;
+    text-align: center;
+    margin: 20px 0px;
+}
+.containercars{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.details{
+    width: 33%;
+    text-align: center;
+    background-color: #a05c5c;
+}
+.detailsbottom{
+
+     background-color: #e0e0e0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.detitem{
+    text-align: center;
+
+    width: 33%;
+    padding: 10px;
+}
+p{
+    color: #fff;
+}
+.d-info >p{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
